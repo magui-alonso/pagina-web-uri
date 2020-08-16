@@ -79,12 +79,43 @@ footer {
     border-top: solid #e2dccb 5px;
 }
 
+/* grid paginas osdepym-blog-videos-contacto*/
+
+.grid-1 {
+    display: grid;
+    grid-template-areas: 
+    "section aside"
+    "footer footer";
+    grid-template-rows: auto 200px;
+    grid-template-columns: auto 30%;
+    height: 100vh;
+}
+
+section {
+    grid-area: section;
+    text-align: center;
+}
+aside {
+    grid-area: aside;
+    text-align: center;
+    background-color: #436773;
+    margin: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #90b0a7;
+    border-top: solid #e2dccb 5px;
+}
+    
+
+
 
 /* index*/
 .h1-index {
     font-family: 'Asap', sans-serif;
     color: #436773;
-    font-size: 30px;
+    font-size: 60px;
     margin-top: 100px;
     margin-bottom: 5px;
 
@@ -235,7 +266,7 @@ textarea {
 /*novedades*/
 
 .index-novedades-contenido {
-    border-bottom: #e2dccb 5px solid;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -305,6 +336,7 @@ textarea {
     color: #436773;
     font-size: 15px;
     padding: 0;
+    text-decoration-color: none;
 
 }
 
