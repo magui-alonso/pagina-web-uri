@@ -88,7 +88,8 @@ footer {
 .grid-1 {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "section aside" "footer footer";
+      grid-template-areas: "section aside"
+ "footer footer";
   -ms-grid-rows: auto 200px;
       grid-template-rows: auto 200px;
   -ms-grid-columns: auto 30%;
