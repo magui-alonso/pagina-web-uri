@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: rgba(126, 125, 100, 0.22);
+    background-color: #e2e2dc;
 }
 
 /* Nav Bar*/
@@ -285,7 +285,7 @@ textarea {
 
 /* pagina blog*/
 
-.contenedor-seccion-aside {
+.contenedor-section-aside {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -294,17 +294,89 @@ textarea {
 
 .section-blog {
     width: 70%;
-    height: 100vh;
-    background-color: royalblue;
-    margin: 0;
-}
-.aside-blog {
-    width: 30%;
-    height: 100vh;
-    background-color: salmon;
-    margin: 0;
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: yellow;
 }
 
+.section-blog-contenido--articulo {
+    width: 220px;
+    border: 2px white solid;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: green;
+    margin-bottom: 20px;
+}
+.section-blog-contenido--imagen {
+    width: 220px;
+    height: 150px;
+}
+.section-blog-contenido--texto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 220px;
+    margin-top: 10px;
+    background-color: blue;
+}
+.blog-articulo-titulo {
+    font-family: 'Asap', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+.blog-articulo-texto {
+    font-family: 'Asap', sans-serif;
+    text-align: justify;
+    font-size: 10px;
+    
+}
+.blog-articulo-redes--linea {
+    border: 1px solid black;
+    width: 200px;
+}
+.blog-articulo-redes {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0; 
+}
+.blog-articulo-redes--titulo {
+    font-family: 'Asap', sans-serif;
+    font-size: 10px;
+}
+.blog-articulo-redes--icono {
+    margin-top: 0;
+}
+
+
+
+
+.aside-blog {
+    width: 30%;
+    background-color: #436773;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.aside-blog-contenido--publicidad {
+    width: 85%;
+    height: 20%;
+    border: 2px solid  white;
+    margin: 5px;
+}
 /* footer*/
 
 .footer-content {
@@ -416,6 +488,27 @@ textarea {
     .footer-content-info {
         margin-left: 50px;
     
+    }
+
+    /* pagina blog*/
+    .aside-blog {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #e2e2dc;
+        align-items: flex-start;
+        
+    }
+    .aside-blog {
+        width: 20%;
+    }
+    
+    .aside-blog-contenido--publicidad {
+        width: 80%;
+        height: 200px;
+        background-color: white;
+        border: 2px solid  white;
+        margin: 5px;
     }
 }
 /* MEDIA QUERY*/
