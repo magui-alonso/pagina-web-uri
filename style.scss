@@ -99,7 +99,7 @@ aside {
     grid-area: aside;
     text-align: center;
     background-color: #436773;
-    margin: 10px;
+    margin: 5px;
 }
 
 footer {
@@ -283,6 +283,28 @@ textarea {
     }
 }
 
+/* pagina blog*/
+
+.contenedor-seccion-aside {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-blog {
+    width: 70%;
+    height: 100vh;
+    background-color: royalblue;
+    margin: 0;
+}
+.aside-blog {
+    width: 30%;
+    height: 100vh;
+    background-color: salmon;
+    margin: 0;
+}
+
 /* footer*/
 
 .footer-content {
@@ -363,6 +385,7 @@ textarea {
 @media only screen and (min-width: 768px) {
 
     /* index*/
+
     #navbar-brand {
         font-size: 30px;
     }
@@ -403,4 +426,5 @@ textarea {
         width: 120px;
         height: 30px;
     }
+    
 }
