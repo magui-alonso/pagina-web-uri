@@ -334,12 +334,10 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: yellow;
 }
 
 .section-blog-contenido--articulo {
   width: 220px;
-  border: 2px white solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,7 +350,6 @@ textarea {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-color: green;
   margin-bottom: 20px;
 }
 
@@ -376,7 +373,6 @@ textarea {
           align-items: flex-start;
   width: 220px;
   margin-top: 10px;
-  background-color: blue;
 }
 
 .blog-articulo-titulo {
@@ -392,12 +388,11 @@ textarea {
 }
 
 .blog-articulo-redes--linea {
-  border: 1px solid black;
+  border: 1px solid grey;
   width: 200px;
 }
 
 .blog-articulo-redes {
-  background-color: blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,6 +415,7 @@ textarea {
 
 .blog-articulo-redes--icono {
   margin-top: 0;
+  color: #436773;
 }
 
 .aside-blog {
