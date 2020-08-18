@@ -3,12 +3,13 @@
 
 body {
     background-color: #e2e2dc;
+    
 }
 
 /* Nav Bar*/
 .navbar {
     background-image: linear-gradient(#90b0a7, #90b0a7, #90b0a7);
-    margin-top: 30px;
+    
 }
 
 #navbar-brand {
@@ -18,6 +19,7 @@ body {
     padding-left: 15px;
     margin: 0;
     text-decoration: none;
+    
 
     &:hover {
         transform: scale(1.05, 1.05);
@@ -84,7 +86,7 @@ footer {
     font-family: 'Asap', sans-serif;
     color: #436773;
     font-size: 60px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 5px;
 
 }
@@ -92,7 +94,7 @@ footer {
 .h1-borde {
     height: 4px;
     background-color: #e2dccb;
-    width: 50%;
+    width: 30%;
     margin-top: 5px;
     margin-bottom: 50px;
 
@@ -250,6 +252,31 @@ textarea {
 
     }
 }
+.card-body {
+    background-color: #f5f5f5;
+}
+.card-body--titulo {
+    font-family: 'Asap', sans-serif;
+    margin-top: 10px;
+    color: #436773;
+}
+.card-body--texto{
+    font-family: 'Asap', sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 15px;
+
+}
+#boton-leer-mas {
+    background-color: #90b0a7;
+    border: 1px solid #90b0a7;
+    color: white;
+    font-family: 'Asap', sans-serif;
+
+    &:hover {
+        transform: scale(1.02, 1.02);
+    }
+}
 
 /* pagina blog*/
 
@@ -261,7 +288,16 @@ textarea {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
     
+}
+.section-blog-titulo {
+    background-color: #436773;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Asap', sans-serif;
+    margin-bottom: 20px;
 }
 
 .section-blog-contenido--articulo {
@@ -271,7 +307,7 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 30px;
-    margin-top: 40px;
+    
 }
 .section-blog-contenido--imagen {
     width: 300px;
@@ -495,4 +531,8 @@ textarea {
         height: 30px;
     }
     
+}
+
+.card-title {
+    font-size: 10px;
 }

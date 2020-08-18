@@ -12,12 +12,12 @@
     <script src="https://kit.fontawesome.com/7a5f78019b.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
-    <title>index</title>
+    <title>videos</title>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <!-- Brand -->
         <a id="navbar-brand" href="index.html"><strong>U</strong>ri<strong>V</strong>ida</a>
         <!-- Toggler/collapsibe Button -->
@@ -50,17 +50,86 @@
         </div>
     </nav>
 
-    <div class="grid-1">
+    <div class="grid">
 
-        <section>
+        <section class="section-video">
 
-            
+             <!--carousel-->
+
+             <div class="container text-center my-3">
+                <div class="row mx-auto my-auto">
+                    <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item py-5 active">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <a href="http://www.osdepym.com.ar/PortalCMS/app.htm"><img src="multimedia/osdepym.png" width="200" height="70" alt="logo-osdepym"></a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <a href="https://farmaciadelpuente.com.ar/"><img src="multimedia/farmacia-del-puente.png" width="200" height="70" alt="logo-farmacia-del-puente" ></a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item py-5">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <a href="http://www.osdepym.com.ar/PortalCMS/app.htm"><img src="multimedia/osdepym.png" width="200" height="70" alt="logo-osdepym"></a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <a href="https://farmaciadelpuente.com.ar/"><img src="multimedia/farmacia-del-puente.png" width="200" height="70" alt="logo-farmacia-del-puente" ></a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item py-5">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <a href="http://www.osdepym.com.ar/PortalCMS/app.htm"><img src="multimedia/osdepym.png" width="200" height="70" alt="logo-osdepym"></a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <a href="https://farmaciadelpuente.com.ar/"><img src="multimedia/farmacia-del-puente.png" width="200" height="70" alt="logo-farmacia-del-puente" ></a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1" ></li>
+                                <li data-target="#myCarousel" data-slide-to="2" ></li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>  
 
         </section>
 
-        <aside>
-            <h6>texto</h6>
-        </aside>
+
 
         <!--footer-->
         <footer class="footer-content">
@@ -70,16 +139,18 @@
                 <div class="footer-content-info-texto">
                     <p class="footer-content-info-texto--tel">urivida@gmail.com</p>
                     <p class="footer-content-info-texto--email">+54-2614123620</p>
-                    <a href=""><span id="footer-content-info-texto--redes"  class="iconify" data-icon="bx-bxl-facebook-square" data-inline="false"></span></a>
-                    <a href=""><span id="footer-content-info-texto--redes" class="iconify"data-icon="carbon-logo-instagram" data-inline="false"></span></a>                      
-                </div> 
+                    <a href=""><span id="footer-content-info-texto--redes" class="iconify"
+                            data-icon="bx-bxl-facebook-square" data-inline="false"></span></a>
+                    <a href=""><span id="footer-content-info-texto--redes" class="iconify"
+                            data-icon="carbon-logo-instagram" data-inline="false"></span></a>
+                </div>
             </div>
             <div>
                 <a href=""><img class="icono-osdepym" src="multimedia/osdepym.png" alt="" width="50" height="50"></a>
             </div>
         </footer>
-    </div>
 
+    </div>
 
 
 
@@ -91,13 +162,16 @@
     <!--no tocar css-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous">
     </script>
 </body>
 
