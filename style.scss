@@ -474,6 +474,58 @@ textarea {
     font-size: 20px;
 }
 
+/* pagina articulo*/
+
+.section-articulo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.section-articulo-contenido--texto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section-articulo-contenido--imagen {
+    width: 300px;
+    height: 200px;
+}
+
+.articulo--titulo {
+    font-family: 'Asap', sans-serif;
+    text-align: left;
+    color: #394245;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+    &:hover {
+        opacity: 70%;
+        
+    }
+}
+.articulo--texto {
+    text-align: justify;
+    
+}
+.articulo--firma {
+    font-size: 30px;
+    font-weight: bold;
+    color: #394245;
+    font-family: 'Asap', sans-serif;
+}
+
+
+
 /* pagina videos*/
 
 .section-videos {
@@ -659,7 +711,17 @@ textarea {
         width: 600px;
         height: 280px;
     }
+
+    /* pagina articulo*/
+    .section-articulo-contenido--texto {
     
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .section-articulo-contenido--imagen {
+        width: 500px;
+        height: 350px;
+    }
     
 }
 /* MEDIA QUERY*/
@@ -672,8 +734,6 @@ textarea {
         height: 30px;
     }
     
+    
 }
 
-.card-title {
-    font-size: 10px;
-}
