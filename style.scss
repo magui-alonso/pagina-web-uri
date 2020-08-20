@@ -8,7 +8,7 @@ body {
 
 /* Nav Bar*/
 .navbar {
-    background-image: linear-gradient(#90b0a7, #90b0a7, #90b0a7);
+    background-image: linear-gradient(#b4cc95, #b4cc95, #b4cc95);
     
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .dropdown-menu {
-    background-color: #90b0a7;
+    background-color: #b4cc95;
 
     .dropdown-item {
 
@@ -56,7 +56,7 @@ body {
 
         &:hover {
             background-color: #ebebeb;
-            color: #90b0a7;
+            color: #b4cc95;
         }
     }
 }
@@ -77,17 +77,19 @@ section {
 
 footer {
     grid-area: footer;
-    background-color: #90b0a7;
+    background-color: #b4cc95;
     border-top: solid #e2dccb 5px;
 }
 
 /* index*/
 .h1-index {
     font-family: 'Asap', sans-serif;
-    color: #436773;
-    font-size: 60px;
-    margin-top: 200px;
+    color: #6B9F33;
+    
+    font-size: 55px;
+    margin-top: 150px;
     margin-bottom: 5px;
+    
 
 }
 
@@ -110,7 +112,8 @@ footer {
 }
 
 #boton-subscribirse {
-    background-image: linear-gradient(#436773, #90b0a7, #436773);
+    background-color: #6B9F33;
+    opacity: 70%;
     color: white;
     font-family: 'Asap', sans-serif;
     width: 150px;
@@ -141,12 +144,12 @@ footer {
 }
 
 .modal-content {
-    background-color: #393d46;
+    background-color: #b4cc95;
 }
 
 .modal-title {
     font-weight: bold;
-    color: #436773;
+    color: #394245;
     font-family: 'Asap', sans-serif;
 }
 
@@ -159,8 +162,8 @@ footer {
 }
 
 #boton-close-modal {
-    background-color: #436773;
-    border: 1px solid #436773;
+    background-color: #6B9F33;
+    border: 1px solid #6B9F33;
     color: white;
     font-family: 'Asap', sans-serif;
 
@@ -171,7 +174,7 @@ footer {
 
 .form {
     list-style-type: none;
-    background: #90b0a7;
+    background: #b4cc95;
     color: white;
     font-family: 'Asap', sans-serif;
     font-size: 15px;
@@ -192,7 +195,7 @@ input {
 }
 
 .botonEnviar:hover {
-    background-color: #436773;
+    background-color: #6B9F33;
     color: white;
 }
 
@@ -223,7 +226,7 @@ textarea {
 }
 
 .h2-index {
-    background-color: #90b0a7;
+    background-color: #b4cc95;
     border-bottom: #e2dccb 8px solid;
     font-family: 'Asap', sans-serif;
     font-style: italic;
@@ -242,7 +245,7 @@ textarea {
     display: block;
     font-family: 'Asap', sans-serif;
     margin-top: 10px;
-    color: #436773;
+    color: #394245;
     font-size: 20px;
     text-align: center;
 }
@@ -253,14 +256,19 @@ textarea {
     font-size: 15px;
 }
 #boton-leer-mas {
-    background-color: #90b0a7;
+    background-color: #6B9F33;
     border: 1px solid #90b0a7;
+    opacity: 70%;
     color: white;
     font-family: 'Asap', sans-serif;
 
     &:hover {
         transform: scale(1.02, 1.02);
     }
+}
+.carousel-indicators li{
+    background-color: #6B9F33;
+     
 }
 
 /* pagina osdepym*/
@@ -276,7 +284,8 @@ textarea {
 }
 
 .h4-form-osdepym {
-    color: #436773;
+    color: #394245;
+    opacity: 80%;
 }
 .containerForm-osdepym {
     background-color: #f5f5f5;
@@ -300,18 +309,17 @@ textarea {
     margin-left: 5px;
 }
 .form-text {
-    color: #436773;
+    color: #394245;
     font-family: 'Asap', sans-serif;
     font-size: 15px;
-    
-
 }
 .form-control {
-    border: #90b0a7 solid 2px;
+    border: #b4cc95 solid 2px;
 }
 .form-boton {
     display: inline;
-    background-color: #436773;
+    background-color: #6B9F33;
+    opacity: 80%;
     border: #436773;
     color: white;
     width: 100px;
@@ -323,12 +331,9 @@ textarea {
         transform: scale(1.02, 1.02);
     }
 }
-.linea-pagina-osdepym {
-    width: 70vw;
-    border: solid 1px #436773;
-}
+
 .h2-osdepym {
-    background-color: #436773;
+    background-color: #6B9F33;
     width: 95vw;
     font-family: 'Asap', sans-serif;
     font-style: italic;
@@ -337,8 +342,15 @@ textarea {
 }
 .h3-osdepym {
     font-family: 'Asap', sans-serif;
-    color: #436773;
+    color: #394245;
+    opacity: 70%;
     font-size: 20px ;
+    margin-top: 20px;
+}
+#flecha-osdepym {
+    font-size: 25px;
+    color: #394245;
+    opacity: 80%;
 }
 .imagen-osdepym-link:hover{
     transform: scale(1.02, 1.02);
@@ -358,7 +370,7 @@ textarea {
     
 }
 .section-blog-titulo {
-    background-color: #436773;
+    background-color: #6B9F33;
     color: white;
     width: 100%;
     padding: 15px;
@@ -367,7 +379,8 @@ textarea {
 }
 .section-blog-titulo-2 {
     
-    color: #90b0a7;
+    color: #394245;
+    opacity: 80%;
     width: 100%;
     font-size: 40px;
     font-family: 'Asap', sans-serif;
@@ -409,7 +422,7 @@ textarea {
 .blog-articulo-titulo {
     font-family: 'Asap', sans-serif;
     text-align: justify;
-    color: #436773;
+    color: #394245;
     font-size: 25px;
     
 
@@ -436,12 +449,13 @@ textarea {
 }
 .blog-articulo-redes--icono {
     margin-top: 0;
-    color: #436773;
+    color: #6B9F33;
+    opacity: 80%;
     font-size: 25px;
     text-decoration: none;
 
     &:hover {
-        opacity: 70%;
+        opacity: 60%;
     }
 }
 .pagination {
@@ -455,7 +469,8 @@ textarea {
     background-color: #f5f5f5;
 }
 #pagination-icono {
-    color: #436773;
+    color: #6B9F33;
+    opacity: 80%;
     font-size: 20px;
 }
 
@@ -487,18 +502,11 @@ textarea {
     font-family: 'Asap', sans-serif;
     margin-top: 10px;
     padding: 10px;
-    color: #436773;
+    color: #394245;
     font-size: 20px;
     text-align: center;
     font-style: italic;
 }
-
-/* carousel*/
-
-.carousel-indicators li{
-    background-color: #436773;  
-}
-
 
 /* footer*/
 
@@ -513,9 +521,7 @@ textarea {
 }
 
 .footer-content-info {
-
     margin-left: 30px;
-
 }
 
 #footer-content-info--logo {
@@ -531,7 +537,8 @@ textarea {
 }
 
 .footer-content-info--contacto {
-    color: #436773;
+    color: #394245;
+    opacity: 80%;
     margin-top: 10px;
     font-weight: bold;
 
@@ -543,14 +550,16 @@ textarea {
 }
 
 .footer-content-info-texto--email {
-    color: #436773;
+    color: #394245;
+    opacity: 80%;
     padding: 0;
     font-size: 15px;
 
 }
 
 .footer-content-info-texto--tel {
-    color: #436773;
+    color: #394245;
+    opacity: 80%;
     font-size: 15px;
     padding: 0;
     text-decoration-color: none;
@@ -559,7 +568,8 @@ textarea {
 
 #footer-content-info-texto--redes {
     font-size: 40px;
-    color: #436773;
+    opacity: 80%;
+    color: #394245;
     padding-right: 10px;
 
     &:hover {
@@ -587,7 +597,7 @@ textarea {
 
     .h1-index {
         
-        font-size: 100px;
+        font-size: 120px;
     }
 
     .h1-borde {
@@ -650,14 +660,6 @@ textarea {
         height: 280px;
     }
     
-    
-    
-
-
-
-
-
-
     
 }
 /* MEDIA QUERY*/
