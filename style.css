@@ -89,8 +89,8 @@ footer {
   font-size: 55px;
   margin-top: 150px;
   margin-bottom: 5px;
-  -webkit-animation: yourAnimation2 3s forwards 0s ease-in;
-          animation: yourAnimation2 3s forwards 0s ease-in;
+  -webkit-animation: yourAnimation2 2s forwards 0s ease;
+          animation: yourAnimation2 2s forwards 0s ease;
 }
 
 @-webkit-keyframes yourAnimation2 {
@@ -146,8 +146,8 @@ footer {
   border: #436773;
   -webkit-box-shadow: 2px 2px 2px 2px #394245;
           box-shadow: 2px 2px 2px 2px #394245;
-  -webkit-animation: yourAnimation3 3s forwards 0s ease-in;
-          animation: yourAnimation3 3s forwards 0s ease-in;
+  -webkit-animation: yourAnimation3 2s forwards 0s ease;
+          animation: yourAnimation3 2s forwards 0s ease;
 }
 
 #boton-subscribirse:hover {
