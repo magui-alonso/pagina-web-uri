@@ -3,13 +3,13 @@
 
 body {
     background-color: #e2e2dc;
-    
+
 }
 
 /* Nav Bar*/
 .navbar {
     background-image: linear-gradient(#b4cc95, #b4cc95, #b4cc95);
-    
+
 }
 
 #navbar-brand {
@@ -19,7 +19,7 @@ body {
     padding-left: 15px;
     margin: 0;
     text-decoration: none;
-    
+
 
     &:hover {
         transform: scale(1.05, 1.05);
@@ -88,18 +88,21 @@ footer {
     font-size: 55px;
     margin-top: 150px;
     margin-bottom: 5px;
-    animation: yourAnimation 3s forwards 0s ease;
+    animation: yourAnimation2 4s forwards 0s ease-in;
+
 }
-@keyframes yourAnimation{
-    0%{
-        transform: rotate(0) translateY(-30%);
+@keyframes yourAnimation2 {
+    0% {
+        transform: rotate(0) translateY(-50%);
         opacity: 0;
-        }
-    100%{
-        transform: rotate(0) translateX(0);
+    }
+
+    100% {
+        transform: rotate(0) translateY(0);
         opacity: 1;
-        }
+    }
 }
+
 
 .h1-borde {
     height: 4px;
@@ -130,21 +133,23 @@ footer {
     border-radius: 5px;
     border: #436773;
     box-shadow: 2px 2px 2px 2px #394245;
-    animation: yourAnimation2 5s forwards 0s ease;
+    animation: yourAnimation3 5s forwards 0s ease-in;
 
     &:hover {
         transform: scale(1.05, 1.05);
     }
 }
-@keyframes yourAnimation2{
-    0%{
+
+@keyframes yourAnimation3 {
+    0% {
         transform: rotate(0) translateX(50%);
         opacity: 0;
-        }
-    100%{
+    }
+
+    100% {
         transform: rotate(0) translateX(0);
         opacity: 1;
-        }
+    }
 }
 
 
@@ -256,53 +261,72 @@ textarea {
 }
 
 /*novedades carousel*/
-#card-1{
-    animation: yourAnimation3 3s forwards 0s ease;
+
+#card-1 {
+    animation: yourAnimation4 2s forwards 0s ease-in;
 
 }
-@keyframes yourAnimation3{
-    0%{
-        transform: rotate(0) translateY(-20%);
+
+@keyframes yourAnimation4 {
+    0% {
+        transform: rotate(0) translateY(-10%);
         opacity: 0;
-        }
-    35%{
+    }
+
+    100% {
         transform: rotate(0) translateY(0);
         opacity: 1;
-        }
+    }
 }
-#card-2{
-    animation: yourAnimation4 3s forwards 0s ease;
+
+#card-2 {
+    animation: yourAnimation5 2.5s forwards 0s ease-in;
 
 }
-@keyframes yourAnimation4{
-    35%{
-        transform: rotate(0) translateY(-20%);
+
+@keyframes yourAnimation5 {
+    0% {
+        transform: rotate(0) translateY(-100%);
         opacity: 0;
-        }
-    65%{
+    }
+
+    50% {
+        transform: rotate(0) translateY(-50%);
+        opacity: 0;
+    }
+
+    100% {
         transform: rotate(0) translateY(0);
         opacity: 1;
-        }
+    }
 }
-#card-3{
-    animation: yourAnimation5 3s forwards 0s ease;
+
+#card-3 {
+    animation: yourAnimation6 4.5s forwards 0s ease-in;
 
 }
-@keyframes yourAnimation5{
-    65%{
-        transform: rotate(0) translateY(-20%);
+
+@keyframes yourAnimation6 {
+    0% {
+        transform: rotate(0) translateY(-100%);
         opacity: 0;
-        }
-    100%{
+    }
+    70% {
+        transform: rotate(0) translateY(-70%);
+        opacity: 0;
+    }
+
+    100% {
         transform: rotate(0) translateY(0);
         opacity: 1;
-        }
+    }
 }
 
 
 .card-body {
     background-color: #f5f5f5;
 }
+
 .card-body--titulo {
     display: block;
     font-family: 'Asap', sans-serif;
@@ -311,12 +335,14 @@ textarea {
     font-size: 20px;
     text-align: center;
 }
-.card-body--texto{
+
+.card-body--texto {
     font-family: 'Asap', sans-serif;
     margin-top: 10px;
     text-align: justify;
     font-size: 15px;
 }
+
 #boton-leer-mas {
     background-color: #6B9F33;
     border: 1px solid #90b0a7;
@@ -328,9 +354,10 @@ textarea {
         transform: scale(1.02, 1.02);
     }
 }
-.carousel-indicators li{
+
+.carousel-indicators li {
     background-color: #6B9F33;
-     
+
 }
 
 /* pagina osdepym*/
@@ -343,6 +370,7 @@ textarea {
     justify-content: center;
     margin-top: 100px;
 }
+
 .section-osdepym-titulo {
     background-color: #6B9F33;
     color: white;
@@ -350,17 +378,19 @@ textarea {
     padding: 5px;
     font-family: 'Asap', sans-serif;
     margin-bottom: 20px;
-    animation: yourAnimation7 3s forwards 0s ease-in;
+    animation: yourAnimation7 2s forwards 0s ease;
 }
-@keyframes yourAnimation7{
-    0%{
-        transform: rotate(0) translateX(-15) translateY(0);
+
+@keyframes yourAnimation7 {
+    0% {
+        transform: rotate(0) translateX(-100%);
         opacity: 0;
-        }
-    100%{
+    }
+
+    100% {
         transform: rotate(0) translateX(0);
         opacity: 1;
-        }
+    }
 }
 
 
@@ -368,10 +398,12 @@ textarea {
     color: #394245;
     opacity: 80%;
 }
-.containerForm-osdepym {
+
+#containerForm-osdepym {
     background-color: #f5f5f5;
     margin-bottom: 20px;
 }
+
 .form-group {
     background-color: #f5f5f5;
     margin: 20px;
@@ -380,23 +412,28 @@ textarea {
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
 .form-group-1 {
-    
+
     margin-left: 2px;
     margin-right: 5px;
 }
+
 .form-group-2 {
     margin-right: 2px;
     margin-left: 5px;
 }
+
 .form-text {
     color: #394245;
     font-family: 'Asap', sans-serif;
     font-size: 15px;
 }
+
 .form-control {
     border: #b4cc95 solid 2px;
 }
+
 .form-boton {
     display: inline;
     background-color: #6B9F33;
@@ -419,23 +456,26 @@ textarea {
     font-family: 'Asap', sans-serif;
     font-style: italic;
     color: white;
-    
+
 }
+
 .h3-osdepym {
     font-family: 'Asap', sans-serif;
     color: #394245;
     opacity: 70%;
-    font-size: 20px ;
+    font-size: 20px;
     margin-top: 20px;
 }
+
 #flecha-osdepym {
     font-size: 25px;
     color: #394245;
     opacity: 80%;
 }
-.imagen-osdepym-link:hover{
+
+.imagen-osdepym-link:hover {
     transform: scale(1.02, 1.02);
-    
+
 }
 
 
@@ -449,8 +489,9 @@ textarea {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    
+
 }
+
 .section-blog-titulo {
     background-color: #6B9F33;
     color: white;
@@ -458,10 +499,11 @@ textarea {
     padding: 15px;
     font-family: 'Asap', sans-serif;
     margin-bottom: 20px;
-    animation: yourAnimation7 3s forwards 0s ease-in;
+    animation: yourAnimation7 2s forwards 0s ease-in;
 }
+
 .section-blog-titulo-2 {
-    
+
     color: #394245;
     opacity: 80%;
     width: 100%;
@@ -469,24 +511,26 @@ textarea {
     font-family: 'Asap', sans-serif;
     font-style: italic;
     letter-spacing: 2px;
-    
+
 }
 
 .section-blog-contenido--articulo {
-    
+
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 30px;
-    
-    
+
+
 }
+
 .section-blog-contenido--imagen {
     width: 300px;
     height: 200px;
-    
+
 }
+
 .section-blog-contenido--texto {
     display: flex;
     flex-wrap: wrap;
@@ -494,42 +538,48 @@ textarea {
     align-items: flex-start;
     width: 300px;
     margin-top: 10px;
-    
+
 }
+
 .blog-articulo-redes--fecha {
     font-family: 'Asap', sans-serif;
     opacity: 50%;
     font-size: 15px;
     margin-bottom: 30px;
 }
+
 .blog-articulo-titulo {
     font-family: 'Asap', sans-serif;
     text-align: justify;
     color: #394245;
     font-size: 25px;
-    
+
 
     &:hover {
         opacity: 70%;
-        
+
     }
 }
+
 .blog-articulo-texto {
     font-family: 'Asap', sans-serif;
     text-align: justify;
     font-size: 15px;
-    
+
 }
+
 .blog-articulo-redes--linea {
-    border: 0,5px solid grey;
+    border: 0, 5px solid grey;
     width: 200px;
 }
+
 .blog-articulo-redes--titulo {
     font-family: 'Asap', sans-serif;
     opacity: 80%;
     font-size: 15px;
-    
+
 }
+
 .blog-articulo-redes--icono {
     margin-top: 0;
     color: #6B9F33;
@@ -541,16 +591,20 @@ textarea {
         opacity: 60%;
     }
 }
+
 .pagination {
     margin: 15px;
 }
+
 .page-item {
     margin: 15px;
-    
+
 }
+
 .page-link {
     background-color: #f5f5f5;
 }
+
 #pagination-icono {
     color: #6B9F33;
     opacity: 80%;
@@ -566,7 +620,7 @@ textarea {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    
+
 }
 
 .section-articulo-contenido--texto {
@@ -577,6 +631,7 @@ textarea {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .section-articulo-contenido--imagen {
     width: 300px;
     height: 200px;
@@ -589,17 +644,19 @@ textarea {
     font-size: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
-    
+
 
     &:hover {
         opacity: 70%;
-        
+
     }
 }
+
 .articulo--texto {
     text-align: justify;
-    
+
 }
+
 .articulo--firma {
     font-size: 30px;
     font-weight: bold;
@@ -618,7 +675,7 @@ textarea {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    
+
 }
 
 .card-body-videos {
@@ -628,10 +685,12 @@ textarea {
     padding-bottom: 15px;
     padding-top: 15px;
 }
+
 .card-body-videos--video {
     width: 250px;
     height: 140px;
 }
+
 .card-body-videos--titulo {
     display: block;
     font-family: 'Asap', sans-serif;
@@ -731,7 +790,7 @@ textarea {
     }
 
     .h1-index {
-        
+
         font-size: 120px;
     }
 
@@ -754,14 +813,74 @@ textarea {
         width: 200px;
         height: 50px;
     }
+
     .footer-content-info {
         margin-left: 50px;
+
+    }
+    #card-1 {
+        animation: yourAnimation3 2s forwards 0s ease;
     
+    }
+    
+    @keyframes yourAnimation3 {
+        0% {
+            transform: rotate(0) translateX(-10%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: rotate(0) translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    #card-2 {
+        animation: yourAnimation4 2.5s forwards 0s ease;
+    
+    }
+    
+    @keyframes yourAnimation4 {
+        0% {
+            transform: rotate(0) translateX(-100%);
+            opacity: 0;
+        }
+    
+        50% {
+            transform: rotate(0) translateX(-50%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: rotate(0) translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    #card-3 {
+        animation: yourAnimation5 4.5s forwards 0s ease;
+    
+    }
+    
+    @keyframes yourAnimation5 {
+        0% {
+            transform: rotate(0) translateX(-100%);
+            opacity: 0;
+        }
+        70% {
+            transform: rotate(0) translateX(-70%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: rotate(0) translateX(0);
+            opacity: 1;
+        }
     }
 
     /* pagina blog*/
     .section-blog-contenido--articulo {
-        
+
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
@@ -770,18 +889,20 @@ textarea {
         margin-bottom: 30px;
         margin-top: 40px;
     }
+
     .section-blog-contenido--imagen {
         width: 500px;
         height: 300px;
-        
+
     }
+
     .section-blog-contenido--texto {
-        
+
         width: 600px;
         margin-top: 0;
         margin-left: 30px;
     }
-   
+
     .blog-articulo-redes--linea {
         margin-top: 30px;
         width: 500px;
@@ -790,6 +911,7 @@ textarea {
     .card-body-videos {
         width: 700px;
     }
+
     .card-body-videos--video {
         width: 600px;
         height: 280px;
@@ -797,26 +919,27 @@ textarea {
 
     /* pagina articulo*/
     .section-articulo-contenido--texto {
-    
+
         margin-left: 130px;
         margin-right: 130px;
     }
+
     .section-articulo-contenido--imagen {
         width: 500px;
         height: 350px;
     }
-    
+
 }
+
 /* MEDIA QUERY*/
 @media only screen and (max-width: 350px) {
 
     .icono-osdepym {
-        
+
         margin-right: 20px;
         width: 120px;
         height: 30px;
     }
-    
-    
-}
 
+
+}
