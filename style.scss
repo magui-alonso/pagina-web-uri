@@ -32,10 +32,12 @@ body {
     color: white;
     padding: 10px;
     margin-right: 50px;
+    opacity: 100%;
 
     &:hover {
-        font-weight: bold;
-        color: white;
+        transform: scale(1.02, 1.02);
+        
+        color: #6B9F33;
     }
 
     .nav-link--imagen:hover {
@@ -511,6 +513,7 @@ textarea {
     font-family: 'Asap', sans-serif;
     font-style: italic;
     letter-spacing: 2px;
+   
 
 }
 
@@ -554,10 +557,9 @@ textarea {
     color: #394245;
     font-size: 25px;
 
-
     &:hover {
         opacity: 70%;
-
+        text-decoration: none;
     }
 }
 
@@ -633,8 +635,8 @@ textarea {
 }
 
 .section-articulo-contenido--imagen {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    
 }
 
 .articulo--titulo {
@@ -662,6 +664,25 @@ textarea {
     font-weight: bold;
     color: #394245;
     font-family: 'Asap', sans-serif;
+}
+.articulos__boton--volver {
+
+    font-family: 'Asap', sans-serif;
+    color: #6B9F33;
+    font-size: 12px;
+    width: 150px;
+    height: 30px;
+    border: solid 2px #6B9F33;
+    margin-top: 30px;
+    letter-spacing: 0;
+    border-radius: 0px;
+
+    &:hover {
+        
+        transform: scale(1.01, 1.01);
+    }
+
+
 }
 
 
@@ -925,8 +946,8 @@ textarea {
     }
 
     .section-articulo-contenido--imagen {
-        width: 500px;
-        height: 350px;
+        width: 50%;
+        
     }
 
 }
