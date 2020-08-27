@@ -3,6 +3,13 @@ body {
   background-color: #e2e2dc;
 }
 
+.form-gracias {
+  background-color: #6B9F33;
+  margin-bottom: 50px;
+  padding: 30px;
+  color: white;
+}
+
 /* Nav Bar*/
 .navbar {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b4cc95), color-stop(#b4cc95), to(#b4cc95));
