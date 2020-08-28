@@ -63,34 +63,39 @@
             <h4 class="section-osdepym-titulo"><img src="multimedia/osdepym.png" alt="logo-osdepym" width="200" height="50"></h4>
 
             <h4 class="h4-form-osdepym">Solicita Asesor de Ventas</h4>
-            <form class="containerForm-osdepym">
+            <form form action="https://formsubmit.co/magui.alonso.g@gmail.com" method="POST"
+                                class="speaker-form content" class="containerForm-osdepym">
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5501/gracias.html" />
+                                <input type="hidden" name="_subject" value="Nuevo mensaje, desde UriVida!" />
+                                <input type="text" name="_honey" style="display: none" />
+                                <input type="hidden" name="_captcha" value="false" />
 
                 <div class="form-group">
                     <div class="form-group-1">
                         <label class="form-text" for="nombre">Nombre y Apellido</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="nombre y apellido" class="form-control" required>
 
                         <label class="form-text" for="fecha de nacimiento">Fecha de nac.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="fecha de nacimiento" class="form-control" required>
 
-                        <label class="form-text" for="fomicilio">Domicilio</label>
-                        <input type="text" class="form-control">
+                        <label class="form-text" for="domicilio">Domicilio</label>
+                        <input type="text" name="domicilio" class="form-control" required>
 
                         <label class="form-text" for="provincia">Provincia</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="provincia" class="form-control" required>
 
                         <label class="form-text" for="ciudad">Ciudad</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="ciudad" class="form-control" required>
                     </div>
                     <div class="form-group-2">
                         <label class="form-text" for="prepaga">Prepaga Actual</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="prepaga" class="form-control" required>
 
                         <label class="form-text" class="form-text" for="telefono">Teléfono</label>
-                        <input type="text" class="form-control">
+                        <input type="tel" name="phone" class="form-control" required>
 
-                        <label class="form-text" for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control">
+                        <label class="form-text" for="email">Email </label>
+                        <input type="email" name="email" class="form-control" required>
 
                         <label class="form-text" for="exampleFormControlTextarea1">Deja tu consulta</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
