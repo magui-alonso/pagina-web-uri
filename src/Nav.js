@@ -1,3 +1,5 @@
+import NextLink from "next/link";
+
 export const Nav = () => (
   <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
     <a id="navbar-brand" href="index.html">
@@ -23,7 +25,7 @@ export const Nav = () => (
           <a id="nav-texto" className="nav-link" href="osdepym.html">
             <img
               className="nav-link--imagen"
-              src="osdepym.png"
+              src="/osdepym.png"
               alt="logo-osdepym"
               width="140"
               height="35"
@@ -46,9 +48,9 @@ export const Nav = () => (
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a className="dropdown-item" href="blog.html">
-              Blog
-            </a>
+            <NextLink href="/blog/[page]" as="/blog/0">
+              <a className="dropdown-item">Blog</a>
+            </NextLink>
             <a className="dropdown-item" href="videos.html">
               Videos
             </a>
