@@ -56,6 +56,7 @@ export const Nav = () => (
             </NextLink>
           </div>
         </li>
+
         <li className="nav-item">
           <a id="nav-texto" className="nav-link" href="#contacto">
             Contacto
