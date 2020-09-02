@@ -2,9 +2,11 @@ import NextLink from "next/link";
 
 export const Nav = () => (
   <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-    <a id="navbar-brand" href="index.html">
-      <strong>U</strong>ri<strong>V</strong>ida
-    </a>
+    <NextLink href="/">
+      <a id="navbar-brand">
+        <strong>U</strong>ri<strong>V</strong>ida
+      </a>
+    </NextLink>
     <button
       className="navbar-toggler"
       type="button"
@@ -22,15 +24,17 @@ export const Nav = () => (
     >
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a id="nav-texto" className="nav-link" href="osdepym.html">
-            <img
-              className="nav-link--imagen"
-              src="/osdepym.png"
-              alt="logo-osdepym"
-              width="140"
-              height="35"
-            />
-          </a>
+          <NextLink href="/osdepym">
+            <a id="nav-texto" className="nav-link">
+              <img
+                className="nav-link--imagen"
+                src="/osdepym.png"
+                alt="logo-osdepym"
+                width="140"
+                height="35"
+              />
+            </a>
+          </NextLink>
         </li>
         <li className="nav-item dropdown">
           <a
