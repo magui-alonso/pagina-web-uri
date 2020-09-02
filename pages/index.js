@@ -34,7 +34,7 @@ const Index = ({ page }) => {
               <div className="modal-body">
                 <form
                   form
-                  action="https://formsubmit.co/magui.alonso.g@gmail.com"
+                  action="https://formsubmit.co/pedro@uridesarrollos.com.ar"
                   method="POST"
                   className="speaker-form content"
                   className="containerForm"

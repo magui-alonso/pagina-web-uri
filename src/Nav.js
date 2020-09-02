@@ -51,9 +51,9 @@ export const Nav = () => (
             <NextLink href="/blog/[page]" as="/blog/0">
               <a className="dropdown-item">Blog</a>
             </NextLink>
-            <a className="dropdown-item" href="videos.html">
-              Videos
-            </a>
+            <NextLink href="/videos/[page]" as="/videos/0">
+              <a className="dropdown-item">Videos</a>
+            </NextLink>
           </div>
         </li>
         <li className="nav-item">
