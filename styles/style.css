@@ -4,7 +4,7 @@ body {
 }
 
 .form-gracias {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   margin-bottom: 45px;
   padding: 30px;
   color: white;
@@ -12,12 +12,19 @@ body {
 
 /* Nav Bar*/
 .navbar {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b4cc95), color-stop(#b4cc95), to(#b4cc95));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#b4cc95),
+    color-stop(#b4cc95),
+    to(#b4cc95)
+  );
   background-image: linear-gradient(#b4cc95, #b4cc95, #b4cc95);
 }
 
 #navbar-brand {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 20px;
   color: white;
   padding-left: 15px;
@@ -27,11 +34,11 @@ body {
 
 #navbar-brand:hover {
   -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 
 #nav-texto {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 20px;
   color: white;
   padding: 10px;
@@ -41,13 +48,13 @@ body {
 
 #nav-texto:hover {
   -webkit-transform: scale(1.02, 1.02);
-          transform: scale(1.02, 1.02);
-  color: #6B9F33;
+  transform: scale(1.02, 1.02);
+  color: #6b9f33;
 }
 
 #nav-texto .nav-link--imagen:hover {
   -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 
 .dropdown-menu {
@@ -55,7 +62,7 @@ body {
 }
 
 .dropdown-menu .dropdown-item {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   color: #ebebeb;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -70,9 +77,9 @@ body {
 .grid {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "section" "footer";
+  grid-template-areas: "section" "footer";
   -ms-grid-rows: auto 200px;
-      grid-template-rows: auto 200px;
+  grid-template-rows: auto 200px;
   height: 100vh;
 }
 
@@ -93,24 +100,24 @@ footer {
 
 /* index*/
 .h1-index {
-  font-family: 'Asap', sans-serif;
-  color: #6B9F33;
+  font-family: "Asap", sans-serif;
+  color: #6b9f33;
   font-size: 55px;
   margin-top: 150px;
   margin-bottom: 5px;
   -webkit-animation: yourAnimation2 2s forwards 0s ease;
-          animation: yourAnimation2 2s forwards 0s ease;
+  animation: yourAnimation2 2s forwards 0s ease;
 }
 
 @-webkit-keyframes yourAnimation2 {
   0% {
     -webkit-transform: rotate(0) translateY(-50%);
-            transform: rotate(0) translateY(-50%);
+    transform: rotate(0) translateY(-50%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
@@ -118,12 +125,12 @@ footer {
 @keyframes yourAnimation2 {
   0% {
     -webkit-transform: rotate(0) translateY(-50%);
-            transform: rotate(0) translateY(-50%);
+    transform: rotate(0) translateY(-50%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
@@ -137,42 +144,42 @@ footer {
 }
 
 .h5-index {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   color: #394245;
   font-style: italic;
   margin-bottom: 20px;
 }
 
 #boton-subscribirse {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   opacity: 70%;
   color: white;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   width: 150px;
   padding: 5px;
   margin-bottom: 100px;
   border-radius: 5px;
   border: #436773;
   -webkit-box-shadow: 2px 2px 2px 2px #394245;
-          box-shadow: 2px 2px 2px 2px #394245;
+  box-shadow: 2px 2px 2px 2px #394245;
   -webkit-animation: yourAnimation3 2s forwards 0s ease;
-          animation: yourAnimation3 2s forwards 0s ease;
+  animation: yourAnimation3 2s forwards 0s ease;
 }
 
 #boton-subscribirse:hover {
   -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 
 @-webkit-keyframes yourAnimation3 {
   0% {
     -webkit-transform: rotate(0) translateX(50%);
-            transform: rotate(0) translateX(50%);
+    transform: rotate(0) translateX(50%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateX(0);
-            transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
     opacity: 1;
   }
 }
@@ -180,12 +187,12 @@ footer {
 @keyframes yourAnimation3 {
   0% {
     -webkit-transform: rotate(0) translateX(50%);
-            transform: rotate(0) translateX(50%);
+    transform: rotate(0) translateX(50%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateX(0);
-            transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
     opacity: 1;
   }
 }
@@ -210,7 +217,7 @@ footer {
 .modal-title {
   font-weight: bold;
   color: #394245;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
 .containerForm {
@@ -219,41 +226,41 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 #boton-close-modal {
-  background-color: #6B9F33;
-  border: 1px solid #6B9F33;
+  background-color: #6b9f33;
+  border: 1px solid #6b9f33;
   color: white;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
 #boton-close-modal:hover {
   -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .form {
   list-style-type: none;
   background: #b4cc95;
   color: white;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 15px;
   padding: 20px;
   border-radius: 10px;
 }
 
 input {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   color: #262626;
   font-size: 15px;
   background: transparent;
@@ -265,7 +272,7 @@ input {
 }
 
 .botonEnviar:hover {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   color: white;
 }
 
@@ -283,7 +290,7 @@ textarea:hover {
 }
 
 textarea {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   color: #262626;
   font-size: 15px;
   background: transparent;
@@ -298,7 +305,7 @@ textarea {
 .h2-index {
   background-color: #b4cc95;
   border-bottom: #e2dccb 8px solid;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-style: italic;
   color: white;
   padding: 10px;
@@ -308,18 +315,18 @@ textarea {
 /*novedades carousel*/
 #card-1 {
   -webkit-animation: yourAnimation4 2s forwards 0s ease-in;
-          animation: yourAnimation4 2s forwards 0s ease-in;
+  animation: yourAnimation4 2s forwards 0s ease-in;
 }
 
 @-webkit-keyframes yourAnimation4 {
   0% {
     -webkit-transform: rotate(0) translateY(-10%);
-            transform: rotate(0) translateY(-10%);
+    transform: rotate(0) translateY(-10%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
@@ -327,35 +334,35 @@ textarea {
 @keyframes yourAnimation4 {
   0% {
     -webkit-transform: rotate(0) translateY(-10%);
-            transform: rotate(0) translateY(-10%);
+    transform: rotate(0) translateY(-10%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
 
 #card-2 {
   -webkit-animation: yourAnimation5 2.5s forwards 0s ease-in;
-          animation: yourAnimation5 2.5s forwards 0s ease-in;
+  animation: yourAnimation5 2.5s forwards 0s ease-in;
 }
 
 @-webkit-keyframes yourAnimation5 {
   0% {
     -webkit-transform: rotate(0) translateY(-100%);
-            transform: rotate(0) translateY(-100%);
+    transform: rotate(0) translateY(-100%);
     opacity: 0;
   }
   50% {
     -webkit-transform: rotate(0) translateY(-50%);
-            transform: rotate(0) translateY(-50%);
+    transform: rotate(0) translateY(-50%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
@@ -363,40 +370,40 @@ textarea {
 @keyframes yourAnimation5 {
   0% {
     -webkit-transform: rotate(0) translateY(-100%);
-            transform: rotate(0) translateY(-100%);
+    transform: rotate(0) translateY(-100%);
     opacity: 0;
   }
   50% {
     -webkit-transform: rotate(0) translateY(-50%);
-            transform: rotate(0) translateY(-50%);
+    transform: rotate(0) translateY(-50%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
 
 #card-3 {
   -webkit-animation: yourAnimation6 4.5s forwards 0s ease-in;
-          animation: yourAnimation6 4.5s forwards 0s ease-in;
+  animation: yourAnimation6 4.5s forwards 0s ease-in;
 }
 
 @-webkit-keyframes yourAnimation6 {
   0% {
     -webkit-transform: rotate(0) translateY(-100%);
-            transform: rotate(0) translateY(-100%);
+    transform: rotate(0) translateY(-100%);
     opacity: 0;
   }
   70% {
     -webkit-transform: rotate(0) translateY(-70%);
-            transform: rotate(0) translateY(-70%);
+    transform: rotate(0) translateY(-70%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
@@ -404,17 +411,17 @@ textarea {
 @keyframes yourAnimation6 {
   0% {
     -webkit-transform: rotate(0) translateY(-100%);
-            transform: rotate(0) translateY(-100%);
+    transform: rotate(0) translateY(-100%);
     opacity: 0;
   }
   70% {
     -webkit-transform: rotate(0) translateY(-70%);
-            transform: rotate(0) translateY(-70%);
+    transform: rotate(0) translateY(-70%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateY(0);
-            transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
     opacity: 1;
   }
 }
@@ -425,7 +432,7 @@ textarea {
 
 .card-body--titulo {
   display: block;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   margin-top: 10px;
   color: #394245;
   font-size: 20px;
@@ -433,27 +440,27 @@ textarea {
 }
 
 .card-body--texto {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   margin-top: 10px;
   text-align: justify;
   font-size: 15px;
 }
 
 #boton-leer-mas {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   border: 1px solid #90b0a7;
   opacity: 70%;
   color: white;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
 #boton-leer-mas:hover {
   -webkit-transform: scale(1.02, 1.02);
-          transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
 }
 
 .carousel-indicators li {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
 }
 
 /* pagina osdepym*/
@@ -462,40 +469,40 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 100px;
 }
 
 .section-osdepym-titulo {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   color: white;
   width: 100%;
   padding: 5px;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   margin-bottom: 20px;
   -webkit-animation: yourAnimation7 2s forwards 0s ease;
-          animation: yourAnimation7 2s forwards 0s ease;
+  animation: yourAnimation7 2s forwards 0s ease;
 }
 
 @-webkit-keyframes yourAnimation7 {
   0% {
     -webkit-transform: rotate(0) translateX(-100%);
-            transform: rotate(0) translateX(-100%);
+    transform: rotate(0) translateX(-100%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateX(0);
-            transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
     opacity: 1;
   }
 }
@@ -503,12 +510,12 @@ textarea {
 @keyframes yourAnimation7 {
   0% {
     -webkit-transform: rotate(0) translateX(-100%);
-            transform: rotate(0) translateX(-100%);
+    transform: rotate(0) translateX(-100%);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0) translateX(0);
-            transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
     opacity: 1;
   }
 }
@@ -532,10 +539,10 @@ textarea {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .form-group-1 {
@@ -550,7 +557,7 @@ textarea {
 
 .form-text {
   color: #394245;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 15px;
 }
 
@@ -560,7 +567,7 @@ textarea {
 
 .form-boton {
   display: inline;
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   opacity: 80%;
   border: #436773;
   color: white;
@@ -572,19 +579,19 @@ textarea {
 .form-boton:hover {
   opacity: 70%;
   -webkit-transform: scale(1.02, 1.02);
-          transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
 }
 
 .h2-osdepym {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   width: 95vw;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-style: italic;
   color: white;
 }
 
 .h3-osdepym {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   color: #394245;
   opacity: 70%;
   font-size: 20px;
@@ -599,7 +606,7 @@ textarea {
 
 .imagen-osdepym-link:hover {
   -webkit-transform: scale(1.02, 1.02);
-          transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
 }
 
 /* pagina blog*/
@@ -608,29 +615,29 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 100px;
 }
 
 .section-blog-titulo {
-  background-color: #6B9F33;
+  background-color: #6b9f33;
   color: white;
   width: 100%;
   padding: 15px;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   margin-bottom: 20px;
   -webkit-animation: yourAnimation7 2s forwards 0s ease-in;
-          animation: yourAnimation7 2s forwards 0s ease-in;
+  animation: yourAnimation7 2s forwards 0s ease-in;
 }
 
 .section-blog-titulo-2 {
@@ -638,7 +645,7 @@ textarea {
   opacity: 80%;
   width: 100%;
   font-size: 40px;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-style: italic;
   letter-spacing: 2px;
 }
@@ -648,14 +655,14 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   margin-bottom: 30px;
 }
 
@@ -669,27 +676,27 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   width: 300px;
   margin-top: 10px;
 }
 
 .blog-articulo-redes--fecha {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   opacity: 50%;
   font-size: 15px;
   margin-bottom: 30px;
 }
 
 .blog-articulo-titulo {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   text-align: justify;
   color: #394245;
   font-size: 25px;
@@ -701,7 +708,7 @@ textarea {
 }
 
 .blog-articulo-texto {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   text-align: justify;
   font-size: 15px;
 }
@@ -712,14 +719,14 @@ textarea {
 }
 
 .blog-articulo-redes--titulo {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   opacity: 80%;
   font-size: 15px;
 }
 
 .blog-articulo-redes--icono {
   margin-top: 0;
-  color: #6B9F33;
+  color: #6b9f33;
   opacity: 80%;
   font-size: 25px;
   text-decoration: none;
@@ -742,7 +749,7 @@ textarea {
 }
 
 #pagination-icono {
-  color: #6B9F33;
+  color: #6b9f33;
   opacity: 80%;
   font-size: 20px;
 }
@@ -753,17 +760,17 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 100px;
 }
 
@@ -772,14 +779,14 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -789,7 +796,7 @@ textarea {
 }
 
 .articulo--titulo {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   text-align: left;
   color: #394245;
   font-size: 25px;
@@ -809,16 +816,16 @@ textarea {
   font-size: 30px;
   font-weight: bold;
   color: #394245;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
 .articulos__boton--volver {
-  font-family: 'Asap', sans-serif;
-  color: #6B9F33;
+  font-family: "Asap", sans-serif;
+  color: #6b9f33;
   font-size: 12px;
   width: 150px;
   height: 30px;
-  border: solid 2px #6B9F33;
+  border: solid 2px #6b9f33;
   margin-top: 30px;
   letter-spacing: 0;
   border-radius: 0px;
@@ -826,7 +833,7 @@ textarea {
 
 .articulos__boton--volver:hover {
   -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  transform: scale(1.01, 1.01);
 }
 
 /* pagina videos*/
@@ -835,17 +842,17 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 100px;
 }
 
@@ -864,7 +871,7 @@ textarea {
 
 .card-body-videos--titulo {
   display: block;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   margin-top: 10px;
   padding: 10px;
   color: #394245;
@@ -879,19 +886,19 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer-content-info {
@@ -899,7 +906,7 @@ textarea {
 }
 
 #footer-content-info--logo {
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 30px;
   color: white;
   margin: 0;
@@ -908,7 +915,7 @@ textarea {
 
 #footer-content-info--logo #footer-content-info--logo:hover {
   -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 
 .footer-content-info--contacto {
@@ -936,7 +943,7 @@ textarea {
   font-size: 15px;
   padding: 0;
   -webkit-text-decoration-color: none;
-          text-decoration-color: none;
+  text-decoration-color: none;
 }
 
 #footer-content-info-texto--redes {
@@ -985,105 +992,105 @@ textarea {
   }
   #card-1 {
     -webkit-animation: yourAnimation3 2s forwards 0s ease;
-            animation: yourAnimation3 2s forwards 0s ease;
+    animation: yourAnimation3 2s forwards 0s ease;
   }
   @-webkit-keyframes yourAnimation3 {
     0% {
       -webkit-transform: rotate(0) translateX(-10%);
-              transform: rotate(0) translateX(-10%);
+      transform: rotate(0) translateX(-10%);
       opacity: 0;
     }
     100% {
       -webkit-transform: rotate(0) translateX(0);
-              transform: rotate(0) translateX(0);
+      transform: rotate(0) translateX(0);
       opacity: 1;
     }
   }
   @keyframes yourAnimation3 {
     0% {
       -webkit-transform: rotate(0) translateX(-10%);
-              transform: rotate(0) translateX(-10%);
+      transform: rotate(0) translateX(-10%);
       opacity: 0;
     }
     100% {
       -webkit-transform: rotate(0) translateX(0);
-              transform: rotate(0) translateX(0);
+      transform: rotate(0) translateX(0);
       opacity: 1;
     }
   }
   #card-2 {
     -webkit-animation: yourAnimation4 2.5s forwards 0s ease;
-            animation: yourAnimation4 2.5s forwards 0s ease;
+    animation: yourAnimation4 2.5s forwards 0s ease;
   }
   @-webkit-keyframes yourAnimation4 {
     0% {
       -webkit-transform: rotate(0) translateX(-100%);
-              transform: rotate(0) translateX(-100%);
+      transform: rotate(0) translateX(-100%);
       opacity: 0;
     }
     50% {
       -webkit-transform: rotate(0) translateX(-50%);
-              transform: rotate(0) translateX(-50%);
+      transform: rotate(0) translateX(-50%);
       opacity: 0;
     }
     100% {
       -webkit-transform: rotate(0) translateX(0);
-              transform: rotate(0) translateX(0);
+      transform: rotate(0) translateX(0);
       opacity: 1;
     }
   }
   @keyframes yourAnimation4 {
     0% {
       -webkit-transform: rotate(0) translateX(-100%);
-              transform: rotate(0) translateX(-100%);
+      transform: rotate(0) translateX(-100%);
       opacity: 0;
     }
     50% {
       -webkit-transform: rotate(0) translateX(-50%);
-              transform: rotate(0) translateX(-50%);
+      transform: rotate(0) translateX(-50%);
       opacity: 0;
     }
     100% {
       -webkit-transform: rotate(0) translateX(0);
-              transform: rotate(0) translateX(0);
+      transform: rotate(0) translateX(0);
       opacity: 1;
     }
   }
   #card-3 {
     -webkit-animation: yourAnimation5 4.5s forwards 0s ease;
-            animation: yourAnimation5 4.5s forwards 0s ease;
+    animation: yourAnimation5 4.5s forwards 0s ease;
   }
   @-webkit-keyframes yourAnimation5 {
     0% {
       -webkit-transform: rotate(0) translateX(-100%);
-              transform: rotate(0) translateX(-100%);
+      transform: rotate(0) translateX(-100%);
       opacity: 0;
     }
     70% {
       -webkit-transform: rotate(0) translateX(-70%);
-              transform: rotate(0) translateX(-70%);
+      transform: rotate(0) translateX(-70%);
       opacity: 0;
     }
     100% {
       -webkit-transform: rotate(0) translateX(0);
-              transform: rotate(0) translateX(0);
+      transform: rotate(0) translateX(0);
       opacity: 1;
     }
   }
   @keyframes yourAnimation5 {
     0% {
       -webkit-transform: rotate(0) translateX(-100%);
-              transform: rotate(0) translateX(-100%);
+      transform: rotate(0) translateX(-100%);
       opacity: 0;
     }
     70% {
       -webkit-transform: rotate(0) translateX(-70%);
-              transform: rotate(0) translateX(-70%);
+      transform: rotate(0) translateX(-70%);
       opacity: 0;
     }
     100% {
       -webkit-transform: rotate(0) translateX(0);
-              transform: rotate(0) translateX(0);
+      transform: rotate(0) translateX(0);
       opacity: 1;
     }
   }
@@ -1093,17 +1100,17 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-bottom: 30px;
     margin-top: 40px;
   }
